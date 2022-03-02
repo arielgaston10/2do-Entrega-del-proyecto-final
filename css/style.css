@@ -49,9 +49,3 @@ body{
 .colum{
     border: 1px solid snow;
 }
-.box2{
-    height: 150px;
-    width: 250px;
-    font-size: 18px;
-    transition: all 1s ease-in-out;
-}
