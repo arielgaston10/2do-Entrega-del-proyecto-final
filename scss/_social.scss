@@ -1,0 +1,26 @@
+$verde:#3EFF99;
+$color:#0d1eaf;
+.social{
+    background-color: $verde;
+    width: 65px;
+    position: absolute;
+    right: 25px;
+     ul{
+         list-style: none;
+         padding: 1rem;
+         justify-content:space-between;
+         flex-direction: column;
+         display: flex;
+         align-items: center;
+        li{
+            transition: all 0.5s ease;
+            a{
+                text-decoration: none;
+                font-size: 2rem;
+            }
+            &:hover{
+                transform: scale(1.2);
+            }
+        } 
+     }
+}
