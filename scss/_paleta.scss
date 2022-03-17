@@ -1,0 +1,35 @@
+//mapa//
+$paleta: (
+    primary: #3acce6,
+    secondary: #1ca857,
+    success: #a59fff,
+    info: #bb6464,
+    warning: #e6cf07,
+);
+@mixin botonMixin($color) {
+    background-color: $color;
+    width: 270px;
+    height: 25px;
+    border: 1px solid $color;
+    border-radius: 3px;
+}
+//bucle de boton//
+@each $nombreClase, $paletacolor in $paleta {
+    .#{$nombreClase} {
+       @include botonMixin($paletacolor)
+    }
+    
+}
+
+$modo: dark;
+$dark_background_card: #00e45f;
+$dark_text: #333333;
+$dark_link: #03060e;
+
+//condicional//
+@if $modo -- dark {
+    .card-body{
+        background-color: $dark_background_card;
+        color: $dark_text   
+    }
+}

@@ -39,6 +39,45 @@ footer {
       .social ul li:hover {
         transform: scale(1.2); }
 
+.primary {
+  background-color: #3acce6;
+  width: 270px;
+  height: 25px;
+  border: 1px solid #3acce6;
+  border-radius: 3px; }
+
+.secondary {
+  background-color: #1ca857;
+  width: 270px;
+  height: 25px;
+  border: 1px solid #1ca857;
+  border-radius: 3px; }
+
+.success {
+  background-color: #a59fff;
+  width: 270px;
+  height: 25px;
+  border: 1px solid #a59fff;
+  border-radius: 3px; }
+
+.info {
+  background-color: #bb6464;
+  width: 270px;
+  height: 25px;
+  border: 1px solid #bb6464;
+  border-radius: 3px; }
+
+.warning {
+  background-color: #e6cf07;
+  width: 270px;
+  height: 25px;
+  border: 1px solid #e6cf07;
+  border-radius: 3px; }
+
+.card-body {
+  background-color: #00e45f;
+  color: #333333; }
+
 * {
   margin: 0;
   padding: 0; }
